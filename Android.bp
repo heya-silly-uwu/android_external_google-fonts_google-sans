@@ -3,11 +3,11 @@
 // SPDX-License-Identifier: Apache-2.0
 
 package {
-    default_applicable_licenses: ["external_google-fonts_google-sans-flex_license"],
+    default_applicable_licenses: ["external_google-fonts_google-sans_license"],
 }
 
 license {
-    name: "external_google-fonts_google-sans-flex_license",
+    name: "external_google-fonts_google-sans_license",
     visibility: [":__subpackages__"],
     license_kinds: [
         "SPDX-license-identifier-OFL", // by exception only
@@ -18,7 +18,13 @@ license {
 }
 
 prebuilt_font {
-    name: "GoogleSansFlex-Regular.ttf",
-    src: "GoogleSansFlex-Regular.ttf",
+    name: "GoogleSans-Regular.ttf",
+    src: "GoogleSans-Regular.ttf",
+    product_specific: true,
+}
+
+prebuilt_font {
+    name: "GoogleSans-Italic.ttf",
+    src: "GoogleSans-Italic.ttf",
     product_specific: true,
 }

@@ -2,4 +2,5 @@
 # SPDX-License-Identifier: Apache-2.0
 
 PRODUCT_PACKAGES := \
-    GoogleSansFlex-Regular.ttf
+    GoogleSans-Regular.ttf \
+    GoogleSans-Italic.ttf
